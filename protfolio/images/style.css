@@ -1,0 +1,141 @@
+.bg1{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px
+}
+.grid-container1 > div{
+    color: ghostwhite;
+    font-size: 33px;
+}
+.grid-item1{
+    margin-left: 200px;
+
+}
+.grid-item2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: end;
+    column-gap: 20px;
+}
+.grid-items2>div{
+    color: ghostwhite;
+    font-size: 20px;
+}
+.grid-item2 > div > a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.grid-5{
+    margin-right: 200px;
+}
+
+.heading1{
+    margin-top: 400px;
+    margin-left: 200px;
+    color: ghostwhite;
+}
+.head1{
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.head2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.dfgb{
+    background-color: rgb(20,20,20);
+    margin-top: 400px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    column-gap: 0px;
+    padding-top: 100px;
+}
+.grid-container2 > div{
+    font-size: 25px;
+}
+
+.grid-item6 > img{
+    margin-left: 100px;
+}
+
+.s1{
+    margin-top: 0px;
+}
+.grid-item7{
+margin-right: 150px;
+margin-bottom: 0px;
+}
+
+.myservice{
+    color: ghostwhite;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.myservice > p{
+    font-size: 60px;
+}
+.row{
+    column-gap: 40px;
+}
+.card-body{
+    background-color: rgb(54,53,53);
+    border: 1px solid rgb(54, 53, 53);
+}
+.port{
+    margin-top: 100px;
+    margin-left: 200px;
+    color: ghostwhite;
+}
+.port > p {
+    font-size: 60px;
+    font-weight: bold;
+}
+.port-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+    column-gap: 50px;
+}
+.grid-item6 > img{
+    margin-left: 70px;
+    border:  none;
+    border-radius: 20px;
+}
+.grid-item8 > div > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.grid-item9 > div > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.grid-item10 > div > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+
+.more{
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid rgb(190,26,26);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+}
+
+.more > a {
+    text-decoration: none;
+    color: ghostwhite;
+}
